@@ -19,5 +19,5 @@ from django.urls import path,include
 from testapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/',views.news_info),
+    path('',views.news_info),
 ]
